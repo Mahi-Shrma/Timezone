@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>TimeZone API</h1>
+        <h1>Your Current Time Zone</h1>
+        <div class="part">
+            <p>Name of Time Zone:</p>
+            <span class="part2">
+                <p>Lat:</p>
+                <p id="longitude">Long:</p>
+            </span>
+            <p>Offset STD:</p>
+            <p>Offset STD Seconds:</p>
+            <p>Offset DST:</p>
+            <p>Offset DST Seconds:</p>
+            <p>Country:</p>
+            <p>Postcode:</p>
+            <p>City:</p>
+        </div>
+    </div>
+   
+    <div class="display">
+        <h1>Enter Address</h1>
+        <input id="add" type="text" placeholder="Address">
+        <button id="submitButton">Submit</button>
+        <p id="timezoneDisplay"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
